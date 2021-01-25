@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-import { fetchAllPlayersThunk } from './../../redux/player/player.actions';
+import { fetchAllPlayersThunk } from '../../../redux/player/player.actions';
 import { AllPlayersView } from '../views';
 
 // Smart container;
