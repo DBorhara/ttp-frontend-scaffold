@@ -3,7 +3,7 @@ import PlayerActionTypes from "./player.types";
 
 // Define the initial state for the reducer
 // In this case, the initial state has an empty array `allPlayers`
-const INITIAL_STATE = {
+export const INITIAL_STATE = {
   allPlayers: [],
 };
 
